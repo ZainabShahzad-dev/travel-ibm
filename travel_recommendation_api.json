@@ -1,0 +1,43 @@
+{
+    "beaches": [
+      {
+        "name": "Bondi Beach",
+        "description": "A famous beach in Australia known for surfing and golden sand.",
+        "imageUrl": "images/bondi.jpg"
+      },
+      {
+        "name": "Copacabana",
+        "description": "A beautiful Brazilian beach famous for its lively atmosphere.",
+        "imageUrl": "images/copacabana.jpg"
+      }
+    ],
+  
+    "temples": [
+      {
+        "name": "Angkor Wat",
+        "description": "A sacred temple in Cambodia known for its stunning architecture.",
+        "imageUrl": "images/angkor.jpg"
+      },
+      {
+        "name": "Golden Temple",
+        "description": "A peaceful holy place in India visited by millions.",
+        "imageUrl": "images/golden_temple.jpg"
+      }
+    ],
+  
+    "countries": [
+      {
+        "name": "Japan",
+        "description": "A beautiful country known for culture, cherry blossoms, and technology.",
+        "imageUrl": "images/japan.jpg",
+        "timeZone": "Asia/Tokyo"
+      },
+      {
+        "name": "Italy",
+        "description": "Home of history, fashion, art, and delicious pasta.",
+        "imageUrl": "images/italy.jpg",
+        "timeZone": "Europe/Rome"
+      }
+    ]
+  }
+  

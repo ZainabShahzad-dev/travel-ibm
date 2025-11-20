@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TravelBloom</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="nav-left">
+        <span class="plane-icon">✈</span>
+        <span class="logo-text">TravelBloom</span>
+    </div>
+    <div class="nav-center">
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact Us</a>
+    </div>
+    <div class="nav-right">
+        <input type="text" id="searchInput" placeholder="Search keywords...">
+        <button id="searchBtn">Search</button>
+        <button id="clearBtn">Clear</button>
+    </div>
+</nav>
+
+<div class="social-icons-fixed">
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-facebook-f"></i></a>
+    <a href="#"><i class="fab fa-youtube"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+</div>
+
+<section class="bg-section hero" id="home">
+    <div class="hero-content">
+        <h1>EXPLORE<br>DREAM<br>DESTINATION</h1>
+        <div class="intro-text">
+            It encourages exploration of unfamiliar territories, embracing diverse cultures and landscapes, while pursuing the desired destination that captivates the heart and ignites a sense of wonder.
+        </div>
+        <button class="book-btn">Book Now</button>
+    </div>
+</section>
+
+<section class="bg-section about" id="about">
+    <h2 class="about-heading">ABOUT US</h2>
+    
+    <div class="about-company-description">
+        <p>Welcome to Our Company! We are a team of passionate individuals dedicated to providing excellent services/products to our customers. Our mission is to <strong>provide the best experience</strong> for people traveling to different destinations around the world.
+        <br><br>
+        Our values include integrity, innovation, customer satisfaction, and teamwork. We believe in putting our customers first and working together to achieve our goals.
+        <br><br>
+        Feel free to explore our website to learn more about what we offer!</p>
+    </div>
+
+    <div class="about-team-section">
+        <h2>Our Team</h2>
+        <div class="divider"></div>
+        <div class="team-cards">
+            
+            <div class="team-card">
+                <div class="icon-container">
+                    <i class="fas fa-user-tie" style="color:#4A90E2;"></i>
+                </div>
+                <h3>John Doe</h3>
+                <p class="role-desc">John is responsible for leading the company and setting the vision.</p>
+                <div class="role-label">CEO</div>
+            </div>
+            
+            <div class="team-card">
+                <div class="icon-container">
+                    <i class="fas fa-user-tie" style="color:#2ECC71;"></i>
+                </div>
+                <h3>Celina Thomas</h3>
+                <p class="role-desc">Celina Thomas is responsible for managing daily operations.</p>
+                <div class="role-label">Team Lead</div>
+            </div>
+            
+            <div class="team-card">
+                <div class="icon-container">
+                    <i class="fas fa-user-tie" style="color:#F39C12;"></i>
+                </div>
+                <h3>Mike Tyson</h3>
+                <p class="role-desc">Mike Tyson handles the final delivery and product launch.</p>
+                <div class="role-label">Delivery Head</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="bg-section contact-screen" id="contact">
+    
+    <div class="contact-left-content">
+        <h2 class="contact-title">CONTACT US</h2>
+     
+            <p class="get-in-touch-text">Get in touch</p>
+        </div>
+    </div>
+    
+    <div class="contact-right-form">
+        <form class="contact-form">
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <textarea placeholder="Message"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</section>
+
+<div class="overlay" id="overlay"></div>
+<div class="popup" id="popup">
+    <h2>Recommendation</h2>
+    <div id="popupContent"></div>
+    <button onclick="closePopup()">Close</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
